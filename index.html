@@ -23,11 +23,10 @@
         <h2>Bem-vindo ao Mix Variedades!</h2>
         <p>Seu mercadinho de confiança para todas as suas necessidades diárias.</p>
         <p>Explore nossos produtos e ofertas especiais!</p>
-        <a href="https://wa.me/c/559982565119" target="_blank" class="btn-catalogo">Acesse nosso Catálogo Completo</a>
     </div>
 
     <style>
-    .teste-botao {
+    .btn-catalogo {
         display: inline-block;
         padding: 12px 25px;
         background-color: #28a745;
@@ -37,10 +36,18 @@
         text-align: center;
         text-decoration: none;
         border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        margin-top: 15px;
+    }
+
+    .btn-catalogo:hover {
+        background-color: #218838;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
     }
 </style>
 
-<a href="#" class="teste-botao">Botão de Teste</a>
+<a href="https://wa.me/c/559982565119" target="_blank" class="btn-catalogo">Acesse nosso Catálogo Completo</a>
     <div class="container" id="products">
         <h2>Produtos em Destaque</h2>
         <div class="products">
