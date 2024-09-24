@@ -91,4 +91,24 @@ body {
     .nav a {
         font-size: 0.9em; /* Reduz o tamanho da fonte */
     }
+
+    .btn-catalogo {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #28a745; /* Cor verde no estilo do WhatsApp */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Animação suave */
+    margin-top: 15px;
+}
+
+.btn-catalogo:hover {
+    background-color: #218838; /* Cor mais escura ao passar o mouse */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra maior ao passar o mouse */
+}
 }
